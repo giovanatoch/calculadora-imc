@@ -23,6 +23,17 @@ main {
   gap: 20px;
 }
 
+p {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2.4px;
+  font-size: 12px;
+  text-align: justify;
+  padding: 0 30px;
+  color: #ffffff59;
+  font-family: Open Sans,"Source Serif Pro",serif;
+}
+
 .divAltura, .divPeso, .divCalc {
   width: 90%;
   display: flex;

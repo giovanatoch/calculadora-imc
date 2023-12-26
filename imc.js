@@ -1,4 +1,5 @@
 const resultado = document.querySelector('#resultado')
+const classicacao = document.querySelector('#classicacao');
 const altura = document.querySelector('#altura')
 const peso = document.querySelector('#peso')
 const calcular = document.querySelector('.divCalc')
@@ -23,7 +24,8 @@ const calcIMC = () => {
       classification = 'Obesidade Grau III'
     }
     
-    resultado.innerHTML = `IMC: ${imc} (${classification})`
+    resultado.innerHTML = `Seu IMC é ${imc} kg/m²`
+    classicacao.innerHTML = `Sua classicação: ${classification}`
   } else {
     resultado.innerHTML = 'Preencha os campos'
   }
